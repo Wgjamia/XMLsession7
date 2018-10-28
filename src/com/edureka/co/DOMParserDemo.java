@@ -12,7 +12,7 @@ import java.io.File;
 public class DOMParserDemo {
     public static void main(String[] args){
         try{
-            File file = new File("/home/wgjamia/Documents/","MyStudent.xml");
+            File file = new File("C:\\Users\\w.gjamia\\Documents\\xml","MyStudent.xml");
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = factory.newDocumentBuilder();
             Document document = builder.parse(file);
@@ -36,9 +36,6 @@ public class DOMParserDemo {
                     System.out.println("*********************************************************");
                 }
             }
-
-
-
         }catch (Exception e){
             System.out.println("Some Exception:"+e);
         }

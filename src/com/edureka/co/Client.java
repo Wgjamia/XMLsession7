@@ -51,7 +51,7 @@ public class Client {
             rootElm.appendChild(studentElm);
             document.appendChild(rootElm);
 
-            File file = new File("/home/wgjamia/Documents/","MyStudent.xml");
+            File file = new File("C:\\Users\\w.gjamia\\Documents\\xml","MyStudent.xml");
             FileOutputStream fos = new FileOutputStream(file);
             StreamResult result = new StreamResult(fos);
 
